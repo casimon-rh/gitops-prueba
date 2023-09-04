@@ -14,9 +14,6 @@ spec:
     spec:
       containers:
       - name: test-app
-        ports:
-        - containerPort: 8080
-          protocol: TCP
         image: registry.access.redhat.com/ubi8/ubi:latest
         command:
         - sleep
